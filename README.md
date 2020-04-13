@@ -55,7 +55,6 @@ HAVING progCount >= 3
 ***Проект на symfony 5***
 - БД SqLite
 - composer install как обычно
-- Запустить можно на встроенном сервере через "symfony serve" [предварительно установив бинарник](https://symfony.com/download)
 - Поднять базу "./bin/console doctrine:database:create"
 - Запустить миграции "./bin/console doctrine:migration:migrate"
 - Заполнить демо-данными "./bin/console doctrine:fixtures:load"
